@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>test_text__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>test_text</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>test_custom_metadata</label>
+    <pluralLabel>test_custom_metadatas</pluralLabel>
+    <validationRules>
+        <fullName>Test_rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>test_text__c  = null</errorConditionFormula>
+        <errorMessage>test</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

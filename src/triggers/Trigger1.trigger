@@ -1,0 +1,1 @@
+trigger Trigger1 on APTTaskTemplate__c (before insert)  { }
