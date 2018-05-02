@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ada</fullName>
+        <default>false</default>
+        <label>Ada</label>
+    </customValue>
+    <customValue>
+        <fullName>Alef</fullName>
+        <default>false</default>
+        <label>Alef</label>
+    </customValue>
+    <customValue>
+        <fullName>Ateji PX</fullName>
+        <default>false</default>
+        <label>Ateji PX</label>
+    </customValue>
+    <customValue>
+        <fullName>ChucK</fullName>
+        <default>false</default>
+        <label>ChucK</label>
+    </customValue>
+    <customValue>
+        <fullName>Cilk</fullName>
+        <default>false</default>
+        <label>Cilk</label>
+    </customValue>
+    <customValue>
+        <fullName>Cω</fullName>
+        <default>false</default>
+        <label>Cω</label>
+    </customValue>
+    <customValue>
+        <fullName>Clojure</fullName>
+        <default>false</default>
+        <label>Clojure</label>
+    </customValue>
+    <customValue>
+        <fullName>Chapel</fullName>
+        <default>false</default>
+        <label>Chapel</label>
+    </customValue>
+    <customValue>
+        <fullName>Co-array Fortran</fullName>
+        <default>false</default>
+        <label>Co-array Fortran</label>
+    </customValue>
+    <customValue>
+        <fullName>Concurrent Pascal (by Brinch-Hansen)</fullName>
+        <default>false</default>
+        <label>Concurrent Pascal (by Brinch-Hansen)</label>
+    </customValue>
+    <customValue>
+        <fullName>Curry</fullName>
+        <default>false</default>
+        <label>Curry</label>
+    </customValue>
+    <customValue>
+        <fullName>E</fullName>
+        <default>false</default>
+        <label>E</label>
+    </customValue>
+    <customValue>
+        <fullName>Eiffel</fullName>
+        <default>false</default>
+        <label>Eiffel</label>
+    </customValue>
+    <customValue>
+        <fullName>Elixir</fullName>
+        <default>false</default>
+        <label>Elixir</label>
+    </customValue>
+    <customValue>
+        <fullName>Erlang</fullName>
+        <default>false</default>
+        <label>Erlang</label>
+    </customValue>
+    <customValue>
+        <fullName>Go</fullName>
+        <default>false</default>
+        <label>Go</label>
+    </customValue>
+    <customValue>
+        <fullName>Java</fullName>
+        <default>false</default>
+        <label>Java</label>
+    </customValue>
+    <customValue>
+        <fullName>Join Java</fullName>
+        <default>false</default>
+        <label>Join Java</label>
+    </customValue>
+    <customValue>
+        <fullName>Pascal</fullName>
+        <default>false</default>
+        <label>Pascal</label>
+    </customValue>
+    <masterLabel>Subtype</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

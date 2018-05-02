@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>TestEmailAlert111</fullName>
+        <description>TestEmailAlert111</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>dev@pee-3.dev.welkinsuite.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/ContactFollowUpSAMPLE</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>FUR_field_update</fullName>
+        <field>FUR_number_field1__c</field>
+        <name>FUR_field_update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FUR_field_update1</fullName>
+        <field>FUR_number_field1__c</field>
+        <formula>FUR_number_field1__c - 1</formula>
+        <name>FUR_field_update1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_after_1st_approval_step</fullName>
+        <field>FUR_number_field1__c</field>
+        <formula>1</formula>
+        <name>Update after 1st approval step</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_on_approval</fullName>
+        <field>FUR_number_field1__c</field>
+        <formula>FUR_formula_field1__c +1</formula>
+        <name>Update on approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>FUR_workflow</fullName>
+        <actions>
+            <name>FUR_field_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>FUR_object__c.FUR_formula_field1__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>FUR_object__c.FUR_number_field1__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>FUR_object__c.FUR_formula_field1__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>FUR_object__c.FUR_number_field1__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>FUR_object__c.FUR_text_field1__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>My very own workflow</fullName>
+        <actions>
+            <name>TestEmailAlert111</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>FUR_field_update1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>FUR_number_field1__c  &lt;&gt;  FUR_formula_field1__c</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

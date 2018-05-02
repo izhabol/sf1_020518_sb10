@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>int</fullName>
+        <default>false</default>
+        <label>int</label>
+    </customValue>
+    <customValue>
+        <fullName>__int8</fullName>
+        <default>false</default>
+        <label>__int8</label>
+    </customValue>
+    <customValue>
+        <fullName>__int16</fullName>
+        <default>false</default>
+        <label>__int16</label>
+    </customValue>
+    <customValue>
+        <fullName>__int32</fullName>
+        <default>false</default>
+        <label>__int32</label>
+    </customValue>
+    <customValue>
+        <fullName>__int64</fullName>
+        <default>false</default>
+        <label>__int64</label>
+    </customValue>
+    <customValue>
+        <fullName>long</fullName>
+        <default>false</default>
+        <label>long</label>
+    </customValue>
+    <customValue>
+        <fullName>long long</fullName>
+        <default>false</default>
+        <label>long long</label>
+    </customValue>
+    <masterLabel>Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

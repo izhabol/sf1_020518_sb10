@@ -1,0 +1,9 @@
+Dear {!Contact.FirstName},  
+
+enjoyed speaking with you today.  I think that {!Organization.Name} has a lot to offer {!Account.Name} and I look forward to our next meeting.  
+00000888
+7777
+{!FUR_object__c.FUR_number_field1__c}
+{!FUR_object__c.FUR_formula_field1__c}
+{!FUR_object__c.FUR_text_field1__c}
+Regards,  {!User.FirstName}
